@@ -1,7 +1,7 @@
 {
   "company": {
-    "name": "React landing page 2021",
-    "logo": "/assets/images/logo.png"
+    "name": "Lev Echad",
+    "logo": "/assets/images/levlev1.webp"
   },
   "navigation": [
     {
@@ -37,7 +37,7 @@
     },
     "secondaryAction": {
       "text": "Email us",
-      "href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
+      "href": "mailto:levechadhaifa@gmail.com?subject=I want to join Lev Echad"
     }
   },
   "product": {
@@ -145,9 +145,11 @@
       }
     ],
     "socialMedia": {
-      "github": "https://github.com/issaafalkattan",
-      "twitter": "https://twitter.com/issaafkattan",
-      "linkedin": "https://www.linkedin.com/in/issaaf-kattan/"
+      "instgram": "https://www.instagram.com/lev1haifa/"
+    },
+    "contact": {
+      "email": "levechadhaifa@gmail.com",
+      "phoneNumber": "+972 52-514-8213"
     }
   }
 }
