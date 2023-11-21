@@ -14,7 +14,7 @@
     "build-types": "tsc --noEmit --pretty",
     "prepare": "husky install",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "next build && next export && gh-pages -d out"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
@@ -40,7 +40,9 @@
     "@babel/eslint-parser": "^7.23.3",
     "@next/bundle-analyzer": "^12.0.0",
     "@types/node": "^16.11.6",
-    "@types/react": "^17.0.33",
+    "@types/react": "^18.2.38",
+    "@types/react": "18.2.38",
+    "@types/react-dom": "^18.0.5",
     "@typescript-eslint/eslint-plugin": "^4.32.0",
     "@typescript-eslint/parser": "^4.32.0",
     "autoprefixer": "^10.3.7",
